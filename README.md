@@ -12,7 +12,22 @@ MouseDown [按下鼠标LEFT或RIGHT]
 MouseUp [松开鼠标LEFT或RIGHT]
 MouseMove [相对移动X坐标] [相对移动Y坐标]
 MouseAbsoluteMove [绝对移动X坐标] [绝对移动Y坐标]
-WhenSimilarity [相似度判断条件] [匹配图片位置] [执行的脚本文件]
+WhenSimilarity [相似度判断条件] [匹配图片位置] [执行的脚本文件] #用于在指定图片跟屏幕相似的情况下执行指定脚本
+Import [脚本文件] #用于引入操作的模块
 ```
 
 * 注:脚本里已经有工业7的挂机脚本和工业区急速脚本
+
+*使用方法
+
+如果你要运行脚本
+
+```buildoutcfg
+python ssjjScript.py
+```
+
+如果你想获取屏幕上的某点坐标
+
+```buildoutcfg
+python getMousePoint.py
+```
