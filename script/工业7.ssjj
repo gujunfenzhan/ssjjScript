@@ -1,0 +1,19 @@
+MouseMove 800 0
+KeyDown w
+Sleep 7
+KeyUp w
+KeyDown 2
+KeyUp 2
+MouseMove -2490 0
+KeyDown w
+Sleep 4.6
+KeyUp w
+Sleep 0.2
+MouseMove -1550 0
+KeyDown w
+KeyDown space
+KeyUp space
+KeyDown space
+Sleep 3.5
+KeyUp w
+KeyUp space

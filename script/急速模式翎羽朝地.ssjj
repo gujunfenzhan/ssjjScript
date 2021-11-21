@@ -1,0 +1,10 @@
+MouseMove 0 1080
+MouseDown LEFT
+MouseUp LEFT
+Sleep 0.5
+KeyDown e
+KeyUp e
+Sleep 0.5
+MouseDown LEFT
+Sleep 90
+MouseDown LEFT

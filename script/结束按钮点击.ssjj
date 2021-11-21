@@ -1,0 +1,12 @@
+MouseAbsoluteMove 960 450
+MouseDown LEFT
+MouseUp LEFT
+Sleep 2
+MouseAbsoluteMove 1263 166
+MouseDown LEFT
+MouseUp LEFT
+Sleep 5
+MouseAbsoluteMove 960 650
+MouseDown LEFT
+MouseUp LEFT
+Sleep 5

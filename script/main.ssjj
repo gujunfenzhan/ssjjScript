@@ -1,0 +1,9 @@
+Sleep 1
+#capture 0 0 1920 1080
+WhenSimilarity <10 gongye7.jpg 0 0 1920 1080 修改难度.ssjj
+Import 工业7.ssjj
+Import 工业72.ssjj
+Import 转移至boss.ssjj
+Import 结束按钮点击.ssjj
+#Import 急速模式.ssjj
+#Import 自动重构.ssjj

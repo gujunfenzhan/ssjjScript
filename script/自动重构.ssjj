@@ -1,0 +1,26 @@
+MouseAbsoluteMove 1062 278
+MouseDown LEFT
+MouseUp LEFT
+Sleep 0.2
+MouseAbsoluteMove 770 205
+MouseDown LEFT
+MouseUp LEFT
+Sleep 0.2
+MouseAbsoluteMove 871 204
+MouseDown LEFT
+MouseUp LEFT
+Sleep 0.2
+MouseAbsoluteMove 963 204
+MouseDown LEFT
+MouseUp LEFT
+Sleep 0.2
+MouseAbsoluteMove 1151 622
+MouseDown LEFT
+MouseUp LEFT
+Sleep 0.2
+MouseAbsoluteMove 1068 565
+MouseDown LEFT
+MouseUp LEFT
+Sleep 3.5
+MouseDown LEFT
+MouseUp LEFT

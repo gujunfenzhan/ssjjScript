@@ -1,0 +1,6 @@
+MouseMove 3040 -40
+KeyDown 1
+KeyUp 1
+Sleep 1
+#循环攻击100次
+for 300 破空持续普通攻击.ssjj

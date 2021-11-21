@@ -1,0 +1,15 @@
+Sleep 2
+#点击加密按钮
+MouseAbsoluteMove 1190 620
+MouseDown LEFT
+MouseUp LEFT
+Sleep 2
+MouseAbsoluteMove 1000 500
+#点击开始
+MouseDown LEFT
+MouseUp LEFT
+Sleep 21
+MouseDown LEFT
+MouseUp LEFT
+KeyDown 2
+KeyUp 2

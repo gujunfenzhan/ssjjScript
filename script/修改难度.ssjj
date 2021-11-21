@@ -1,0 +1,8 @@
+MouseAbsoluteMove 1350 530
+MouseDown LEFT
+MouseUp LEFT
+Sleep 0.5
+MouseAbsoluteMove 1350 630
+MouseDown LEFT
+MouseUp LEFT
+Import 进入加密房.ssjj
