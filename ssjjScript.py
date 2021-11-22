@@ -68,16 +68,23 @@ def WhenSimilarity(args):
     startY = int(args[3])
     imgWidth = int(args[4])
     imgHeight = int(args[5])
-    screenImg = pyautogui.screenshot(region=[startX, startY, imgWidth, imgHeight])
-    sourceImgAHash = dHash(cv2.imread(imgPath))
-    screenImgAHash = dHash(np.array(screenImg))
-    difference = cmpHash(sourceImgAHash,screenImgAHash)
-    n = int(condition[1:])
-    print("预期:"+condition+"   "+"差值:"+str(difference))
-    if condition.startswith('<') and difference < n:
-        exec(scriptDir+"/"+execFile)
-    if condition.startswith('>') and difference > n:
-        exec(scriptDir+"/"+execFile)
+    totalTime = int(args[7])
+    step = 0
+    while step <= totalTime:
+        screenImg = pyautogui.screenshot(region=[startX, startY, imgWidth, imgHeight])
+        sourceImgAHash = dHash(cv2.imread(imgPath))
+        screenImgAHash = dHash(np.array(screenImg))
+        difference = cmpHash(sourceImgAHash,screenImgAHash)
+        n = int(condition[1:])
+        print("预期:"+condition+"   "+"差值:"+str(difference))
+        if condition.startswith('<') and difference < n:
+            exec(scriptDir+"/"+execFile)
+            break
+        if condition.startswith('>') and difference > n:
+            exec(scriptDir+"/"+execFile)
+            break
+        time.sleep(1)
+        step+=1
 def capture(args):
     startX = int(args[0])
     startY = int(args[1])
@@ -92,7 +99,7 @@ def exec(filePath):
     step = 1
     for line in file.readlines():
         line = line.replace("\n", '')  # 除掉回车
-        strs = line.split(' ')  # 分割内容
+        strs = line.split(' ')  # 分割内容1
         action = strs[0]  # 要干的动作
         strs = strs[1:]  # 动作参数
         if line.startswith('#'):

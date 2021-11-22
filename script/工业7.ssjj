@@ -1,3 +1,8 @@
+MouseDown LEFT
+MouseUp LEFT
+#capture 884 0 147 33
+KeyDown 2
+KeyUp 2
 MouseMove 800 0
 KeyDown w
 Sleep 7

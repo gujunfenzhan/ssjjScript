@@ -1,7 +1,7 @@
 Sleep 1
 #capture 0 0 1920 1080
-WhenSimilarity <10 gongye7.jpg 0 0 1920 1080 修改难度.ssjj
-Import 工业7.ssjj
+WhenSimilarity <10 gongye7.jpg 0 0 1920 1080 修改难度.ssjj 5
+WhenSimilarity <10 1637551573.jpg 884 0 147 33 工业7.ssjj 20
 Import 工业72.ssjj
 Import 转移至boss.ssjj
 Import 结束按钮点击.ssjj

@@ -8,8 +8,4 @@ MouseAbsoluteMove 1000 500
 #点击开始
 MouseDown LEFT
 MouseUp LEFT
-Sleep 21
-MouseDown LEFT
-MouseUp LEFT
-KeyDown 2
-KeyUp 2
+Sleep 10
